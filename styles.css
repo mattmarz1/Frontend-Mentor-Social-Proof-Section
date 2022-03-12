@@ -47,18 +47,18 @@ main {
     margin-left: 6.25rem;
 }
 
- #star-box-flex {
+ .star-box-flex {
     display: flex;
 }
 
-#star-box-flex {
+.star-box-flex {
     padding: 0.938rem 1.875rem;
     background-color: hsl(300, 24%, 96%);
     border-radius: 0.625rem;
     margin-bottom: 0.938rem;
 }
 
- #star-box-flex div img {
+ .star-box-flex div img {
     margin-right: 0.313rem;
     height: 0.938rem;
 }
@@ -183,17 +183,17 @@ main {
         margin: 0;
     }
 
-    #star-box #star-box-flex {
+    #star-box .star-box-flex {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
 
-    #star-box-flex div {
+    .star-box-flex div {
         margin-bottom: 0.625em;
     }
 
-    #star-box #star-box-flex p {
+     .star-box-flex p {
         margin: 0;
     }
 
