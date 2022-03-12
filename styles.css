@@ -47,11 +47,8 @@ main {
     margin-left: 6.25rem;
 }
 
- .star-box-flex {
-    display: flex;
-}
-
 .star-box-flex {
+    display: flex;
     padding: 0.938rem 1.875rem;
     background-color: hsl(300, 24%, 96%);
     border-radius: 0.625rem;
@@ -63,7 +60,7 @@ main {
     height: 0.938rem;
 }
 
-#star-box #star-box-flex p {
+ .star-box-flex p {
     margin-left: 1.875rem;
     color: hsl(300, 43%, 22%);
     font-weight: 600;
@@ -148,7 +145,7 @@ main {
 }
 
 
-@media (max-width: 68.125em) {
+@media (max-width: 72.1875em) {
     
     #top-container, #bottom-container {
         flex-direction: column;
