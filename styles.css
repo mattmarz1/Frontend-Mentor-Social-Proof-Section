@@ -28,8 +28,8 @@ main {
 }
 
 #top-container h1 {
-    max-width: 18.75rem;
-    font-size: 2.188rem;
+    max-width: 20.625rem;
+    font-size: 2.5rem;
     margin-bottom: 0.625rem;
     color:  hsl(300, 43%, 22%);
     font-weight: 700;
@@ -89,7 +89,7 @@ main {
 
 .card {
     background-color:  hsl(300, 43%, 22%);
-    max-width: 23.125rem;
+    max-width: 21.875rem;
     padding: 2.5rem;
     border-radius: 0.625rem;
 }
